@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ads="http://schemas.android.com/apk/res-auto" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center" android:id="@id/full" android:background="#80000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/popup_image" android:background="#66bdbdbd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/medium_layout" android:background="#ffffffff" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@id/appExitText" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="프로그램을 종료 하시겠습니까?" android:layout_below="@id/medium_layout" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_below="@id/appExitText">
+                <Button android:id="@id/popup_cancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="취소" android:layout_weight="1.0" />
+                <Button android:id="@id/popup_confirm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="확인" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <ScrollView android:layout_gravity="center_horizontal" android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="22.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/textView" android:background="#99000000" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Convert" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip">
+                <androidx.cardview.widget.CardView android:id="@id/myCvDoc" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginRight="15.0dip" card_view:cardCornerRadius="4.0dip">
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <ImageView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_document2" android:scaleType="centerCrop" />
+                        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:background="#99000000" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Document" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:id="@id/myCvImage" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginLeft="15.0dip" card_view:cardCornerRadius="4.0dip">
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <ImageView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_image2" android:scaleType="centerCrop" />
+                        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:background="#99000000" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Image" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip">
+                <androidx.cardview.widget.CardView android:id="@id/myCvAudio" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginRight="15.0dip" card_view:cardCornerRadius="4.0dip">
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <ImageView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_audio2" android:scaleType="centerCrop" />
+                        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:background="#99000000" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Audio" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:id="@id/myCvEbook" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginLeft="15.0dip" card_view:cardCornerRadius="4.0dip">
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <ImageView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_ebook2" android:scaleType="centerCrop" />
+                        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:background="#99000000" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="E-Book" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip">
+                <androidx.cardview.widget.CardView android:id="@id/myCvVideo" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginRight="15.0dip" card_view:cardCornerRadius="4.0dip">
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <ImageView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_video2" android:scaleType="centerCrop" />
+                        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:background="#99000000" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Video" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:id="@id/myCvArchive" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginLeft="15.0dip" card_view:cardCornerRadius="4.0dip">
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <ImageView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_archive2" android:scaleType="centerCrop" />
+                        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:background="#99000000" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Archive" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/banner_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

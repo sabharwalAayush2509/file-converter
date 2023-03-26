@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ayush/Downloads/APK+Easy+Tool+v1.59.2+Portable/1-Decompiled APKs/com.techmania.allfileconverter_20_apps.evozi.com/res/drawable/abc_seekbar_tick_mark_material.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/ayush/Downloads/APK+Easy+Tool+v1.59.2+Portable/1-Decompiled APKs/com.techmania.allfileconverter_20_apps.evozi.com/res/drawable/design_password_eye.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/ayush/Downloads/APK+Easy+Tool+v1.59.2+Portable/1-Decompiled APKs/com.techmania.allfileconverter_20_apps.evozi.com/res/layout/about.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/ayush/Downloads/APK+Easy+Tool+v1.59.2+Portable/1-Decompiled APKs/com.techmania.allfileconverter_20_apps.evozi.com/res/layout/activity_ad.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/ayush/Downloads/APK+Easy+Tool+v1.59.2+Portable/1-Decompiled APKs/com.techmania.allfileconverter_20_apps.evozi.com/res/layout/activity_convert.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/ayush/Downloads/APK+Easy+Tool+v1.59.2+Portable/1-Decompiled APKs/com.techmania.allfileconverter_20_apps.evozi.com/res/layout/activity_main.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/ayush/Downloads/APK+Easy+Tool+v1.59.2+Portable/1-Decompiled APKs/com.techmania.allfileconverter_20_apps.evozi.com/res/layout/select_dialog_item_material.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/ayush/Downloads/APK+Easy+Tool+v1.59.2+Portable/1-Decompiled APKs/com.techmania.allfileconverter_20_apps.evozi.com/res/layout/select_dialog_multichoice_material.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/ayush/Downloads/APK+Easy+Tool+v1.59.2+Portable/1-Decompiled APKs/com.techmania.allfileconverter_20_apps.evozi.com/res/layout/select_dialog_singlechoice_material.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/ayush/Downloads/APK+Easy+Tool+v1.59.2+Portable/1-Decompiled APKs/com.techmania.allfileconverter_20_apps.evozi.com/res/layout/support_simple_spinner_dropdown_item.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/ayush/Downloads/APK+Easy+Tool+v1.59.2+Portable/1-Decompiled APKs/com.techmania.allfileconverter_20_apps.evozi.com/res/menu/main.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
